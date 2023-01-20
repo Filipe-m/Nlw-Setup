@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import Habit from './components/Habit'
+/* import Habit from './components/Habit' */
+import { Header } from './components/header';
 import './styles/global.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+export function App() {
 
   return (
-    <div className="">
-      <Habit  test={3} />
+    <div className=" w-screen h-screen flex justify-center items-center  ">
+      <div className=' w-full max-w-5xl px-6 flex flex-col gap-16 ' >
+        <Header />
+      </div>
     </div>
   )
 }
 
-export default App
