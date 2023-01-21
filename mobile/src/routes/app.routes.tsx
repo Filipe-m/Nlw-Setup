@@ -7,11 +7,13 @@ import { New } from '../screens/New'
 import { Habit } from '../screens/Habit'
 
 export function AppRoutes() {
-  ;<Navigator>
-    <Screen name="home" component={Home} />
+  return (
+    <Navigator>
+      <Screen name="home" component={Home} />
 
-    <Screen name="new" component={New} />
+      <Screen name="new" component={New} />
 
-    <Screen name="habit" component={Habit} />
-  </Navigator>
+      <Screen name="habit" component={Habit} />
+    </Navigator>
+  )
 }
