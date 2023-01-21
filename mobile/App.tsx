@@ -24,12 +24,12 @@ export default function App() {
 
   return (
     <>
-      <Routes/>
+      <Routes />
       <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
         translucent
       />
-    </Rout>
+    </>
   )
 }
