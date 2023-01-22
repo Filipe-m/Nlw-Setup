@@ -1,6 +1,7 @@
 /* import Habit from './components/Habit' */
 import { Header } from './components/header'
 import { SummaryTable } from './components/summaryTable'
+import './lib/dayjs'
 import './styles/global.css'
 
 export function App() {
