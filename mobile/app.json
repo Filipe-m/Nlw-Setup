@@ -16,12 +16,14 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "userInterfaceStyle": "light"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#09090A"
+        "backgroundColor": "#09090A",
+        "userInterfaceStyle": "light"
       }
     },
     "web": {
